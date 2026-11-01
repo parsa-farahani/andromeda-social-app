@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  allowedDevOrigins: ["192.168.1.110"],
   reactCompiler: true,
   turbopack: {
     rules: {
@@ -11,6 +12,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  experimental: {
+      serverActions: {
+         bodySizeLimit: "10mb",
+      },
+   },
 };
 
 export default nextConfig;

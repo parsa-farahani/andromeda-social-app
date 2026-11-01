@@ -33,6 +33,19 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# /public
+public/images/users|posts
+
+# /uploads
+uploads
+
+# backup files
+proxy_bk.ts
+/app/api/auth/refresh/route_bk.ts
+
+# dev files
+DEV.md
+
 # vercel
 .vercel
 
