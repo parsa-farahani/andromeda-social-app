@@ -15,7 +15,7 @@ Posts, comments with nested replies, likes, tag search, infinite scroll, and a c
 
 </div>
 
-> **Live demo:** _coming soon_ &nbsp;|&nbsp; **Screenshots:** see [below](#-screenshots)
+> **Live demo:** [Andromeda Social App](andromeda-social-app-vercel-tau.vercel.app) &nbsp;|&nbsp; **Screenshots:** see [below](#-screenshots)
 
 ---
 
